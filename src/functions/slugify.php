@@ -88,7 +88,8 @@ function slugify(string $text, string $separator = '-'): string
         '¹' => '1', '²' => '2', '³' => '3', '¶' => 'P',
     ];
 
-    $normalized = strtr($text, $charMap);
+    $trimmed = trim($text);
+    $normalized = strtr($trimmed, $charMap);
     $lowerized = mb_strtolower($normalized);
     $cleaned = preg_replace('/([^a-z0-9]|-)+/', $separator, $lowerized);
 

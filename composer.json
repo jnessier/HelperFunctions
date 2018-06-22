@@ -1,44 +1,42 @@
 {
-    "name": "neoflow/functions",
-    "description": "PHP library with a variety of additional functions.",
-    "type": "library",
-    "license": "MIT",
-    "version": "1.0.0",
-    "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "Jonathan Nessier",
-            "email": "jonathan.nessier@neoflow.ch"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "files": [
-            "src/functions/array_export.php",
-            "src/functions/array_filter_recursive.php",
-            "src/functions/array_in_array.php",
-            "src/functions/base_path.php",
-            "src/functions/convert_php2js.php",
-            "src/functions/ends_with.php",
-            "src/functions/format_datetime.php",
-            "src/functions/format_timestamp.php",
-            "src/functions/get_exception_trace.php",
-            "src/functions/is_assoc.php",
-            "src/functions/is_json.php",
-            "src/functions/is_url.php",
-            "src/functions/is_valid_path.php",
-            "src/functions/normalize_class_name.php",
-            "src/functions/normalize_path.php",
-            "src/functions/normalize_post_files.php",
-            "src/functions/normalize_url.php",
-            "src/functions/random_string.php",
-            "src/functions/recursive_copy.php",
-            "src/functions/replace_array_key.php",
-            "src/functions/request_url.php",
-            "src/functions/sanitize_file_extension.php",
-            "src/functions/sanitize_file_name.php",
-            "src/functions/slugify.php",
-            "src/functions/starts_with.php"
-        ]
+  "name": "neoflow/functions",
+  "description": "PHP library with a variety of additional functions.",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Jonathan Nessier",
+      "email": "jonathan.nessier@neoflow.ch"
     }
+  ],
+  "require": {},
+  "autoload": {
+    "files": [
+      "src/functions/array_export.php",
+      "src/functions/array_filter_recursive.php",
+      "src/functions/array_in_array.php",
+      "src/functions/base_path.php",
+      "src/functions/convert_php2js.php",
+      "src/functions/ends_with.php",
+      "src/functions/get_exception_trace.php",
+      "src/functions/is_assoc.php",
+      "src/functions/is_json.php",
+      "src/functions/is_url.php",
+      "src/functions/is_valid_path.php",
+      "src/functions/normalize_class_name.php",
+      "src/functions/normalize_path.php",
+      "src/functions/normalize_post_files.php",
+      "src/functions/normalize_url.php",
+      "src/functions/random_string.php",
+      "src/functions/recursive_copy.php",
+      "src/functions/replace_array_key.php",
+      "src/functions/request_url.php",
+      "src/functions/sanitize_file_extension.php",
+      "src/functions/sanitize_file_name.php",
+      "src/functions/slugify.php",
+      "src/functions/starts_with.php"
+    ]
+  }
 }

@@ -36,7 +36,8 @@
       "src/functions/sanitize_file_extension.php",
       "src/functions/sanitize_file_name.php",
       "src/functions/slugify.php",
-      "src/functions/starts_with.php"
+      "src/functions/starts_with.php",
+	  "src/functions/shortify.php"
     ]
   }
 }

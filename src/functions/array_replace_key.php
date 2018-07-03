@@ -9,9 +9,9 @@
  *
  * @see https://stackoverflow.com/a/35214048/2338829
  *
- * @return array
+ * @return mixed
  */
-function array_replace_key($subject, string $newKey, string $oldKey): array
+function array_replace_key($subject, string $newKey, string $oldKey)
 {
     // if the value is not an array, then you have reached the deepest
     // point of the branch, so return the value

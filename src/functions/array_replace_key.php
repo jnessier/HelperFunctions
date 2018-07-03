@@ -3,7 +3,7 @@
 /**
  * Replace key in one- or multidimensional array.
  *
- * @param array  $subject Array
+ * @param mixed  $subject Subject
  * @param string $newKey  New key
  * @param string $oldKey  Old key
  *
@@ -11,7 +11,7 @@
  *
  * @return array
  */
-function replace_array_key(array $subject, string $newKey, string $oldKey): array
+function array_replace_key($subject, string $newKey, string $oldKey): array
 {
     // if the value is not an array, then you have reached the deepest
     // point of the branch, so return the value

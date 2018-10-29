@@ -5,10 +5,7 @@
  *
  * @param array  $array       Array to export
  * @param string $indentation Indentation space (e.g. "   " or "\s")
- * @param string $level       Recursive level of array export
- *
- * @author Jonathan Nessier <jonathan.nessier@neoflow.ch>
- * @license MIT
+ * @param int    $level       Recursive level of array export
  *
  * @return string
  */

@@ -1,7 +1,5 @@
 <?php
 
-use Neoflow\Framework\App;
-
 /**
  * Get exception trace as a string without truncated text.
  *
@@ -43,10 +41,6 @@ function get_exception_trace(Throwable $exception, bool $nl2br = false, bool $re
         $frame['class'] = (isset($frame['class'])) ? $frame['class'].$frame['type'].$frame['function'] : $frame['function'];
         $trace .= sprintf('#%s %s(%s): %s(%s)', $count, $frame['file'], $frame['line'], $frame['class'], $args).($nl2br ? '<br />' : PHP_EOL);
         ++$count;
-    }
-
-    if ($relativePaths) {
-        return str_replace(App::instance()->get('config')->getPath(), '...'.DIRECTORY_SEPARATOR, $trace);
     }
 
     return $trace;

@@ -1,5 +1,5 @@
 {
-  "name": "neoflow/functions",
+  "name": "EverestCMS/Functions",
   "description": "PHP library with a variety of additional functions.",
   "type": "library",
   "license": "MIT",
@@ -7,8 +7,8 @@
   "minimum-stability": "dev",
   "authors": [
     {
-      "name": "Jonathan Nessier",
-      "email": "jonathan.nessier@neoflow.ch"
+      "name": "Everest CMS contributors",
+      "email": "info@everest-cms.org"
     }
   ],
   "require": {},

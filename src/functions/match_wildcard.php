@@ -16,5 +16,5 @@ function match_wildcard(string $pattern, string $subject)
         preg_quote($pattern)
     );
 
-    return preg_match('/^'.$regex.'$/is', $subject);
+    return preg_match('#^'.$regex.'$#is', $subject);
 }

@@ -26,6 +26,7 @@
       "src/functions/is_json.php",
       "src/functions/is_url.php",
       "src/functions/is_valid_path.php",
+      "src/functions/match_wildcard.php",
       "src/functions/normalize_class_name.php",
       "src/functions/normalize_path.php",
       "src/functions/normalize_post_files.php",

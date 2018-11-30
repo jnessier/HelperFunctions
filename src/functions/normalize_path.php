@@ -17,7 +17,5 @@ function normalize_path(string $path, bool $relative = false): string
         $path = ltrim($path, '\\');
     }
 
-    // $trimmed = rtrim($normalized, DIRECTORY_SEPARATOR);
-
-    return $path;
+    return rtrim($path, DIRECTORY_SEPARATOR);
 }

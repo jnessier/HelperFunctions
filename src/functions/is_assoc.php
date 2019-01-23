@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Check whether array is associative.
+ * Check whether an empty or associative array.
  *
  * @param mixed $array Array
  *
@@ -10,7 +10,11 @@
 function is_assoc($array): bool
 {
     if (is_array($array)) {
-        return count(array_filter(array_keys($array), 'is_string')) > 0;
+        if (count($array) > 0) {
+            return count(array_filter(array_keys($array), 'is_string')) > 0;
+        }
+
+        return true;
     }
 
     return false;

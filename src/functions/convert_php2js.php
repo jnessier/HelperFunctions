@@ -39,6 +39,8 @@ function convert_php2js($value, bool $braces = true, array $exclude = []): strin
         return $value;
     } elseif (0 === mb_strpos($value, '(code)')) {
         return str_replace('(code) ', '', $value);
+	} elseif (0 === mb_strpos($value, '(regex)')) {
+        return str_replace('(regex) ', '', $value);
     }
 
     return '\''.(string) $value.'\'';

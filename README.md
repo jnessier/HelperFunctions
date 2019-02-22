@@ -1,4 +1,4 @@
-# Functions
-PHP library with a variety of additional functions.
+# Everest Functions
+Variety of additional functions for PHP 7.1 or newer
 
-This library is part of the internal composer dependencies of the Everest CMS.
+**Please note:** Everest Functions are part of the internal composer dependencies of the Everest CMS.

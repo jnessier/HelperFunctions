@@ -1,6 +1,6 @@
 {
   "name": "everest/functions",
-  "description": "PHP library with a variety of additional functions.",
+  "description": "Variety of additional functions for PHP 7.1 or newer.",
   "type": "library",
   "license": "MIT",
   "version": "1.0.0",

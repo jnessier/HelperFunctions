@@ -3,13 +3,12 @@
 /**
  * Get exception trace as a string without truncated text.
  *
- * @param Throwable $exception
- * @param bool      $nl2br
- * @param bool      $relativePaths
+ * @param Throwable $exception Exception to get trace from
+ * @param bool      $nl2br     Set TRUE to convert line break to <br /> tags
  *
  * @return string
  */
-function get_exception_trace(Throwable $exception, bool $nl2br = false, bool $relativePaths = false): string
+function get_exception_trace(Throwable $exception, bool $nl2br = false): string
 {
     $trace = '';
     $count = 0;

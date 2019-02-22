@@ -17,6 +17,8 @@
       "src/functions/array_export.php",
       "src/functions/array_filter_recursive.php",
       "src/functions/array_in_array.php",
+      "src/functions/array_insert_after.php",
+      "src/functions/array_insert_before.php",
       "src/functions/array_replace_key.php",
       "src/functions/base_path.php",
       "src/functions/convert_php2js.php",

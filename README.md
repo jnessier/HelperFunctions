@@ -6,7 +6,7 @@ Variety of helper functions for PHP 7.1 or newer
 * Write docs
 
 ## Author(s)
-* Jonathan Nessier, [Neoflow](https://www.neoflow.ch)
+* Jonathan Nessier
 
 ## License
 MIT
